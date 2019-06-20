@@ -1,0 +1,34 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:id="@+id/sign_in"
+        android:text="Google Sign In"
+        android:textSize="25sp"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/getLocation"
+        android:text="Get location using GPS"
+        android:textSize="25sp"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/bottom_navig_btn"
+        android:layout_margin="10dp"
+        android:text="Go To Bottom Navig"
+        android:layout_width="match_parent"
+        android:textSize="25sp"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>
